@@ -3,7 +3,7 @@ This is a console application for turning an image into a matrix with values of 
 
 ## Usage
 - build project image-parser.jar
-- write to command line (java -jar <path to image-parser.jar> <path to source image>)
+- write to command line ```java -jar <path to image-parser.jar> <path to source image>```
 - open file output.kt
 ### or
 - replace the line ```val file = File(arg.first())``` by ```val file = File(<path to image>)```
