@@ -57,5 +57,6 @@ private fun buildStr(listPixelsRow: List<List<Int>>): String {
         }
     }
     str += ")" + '\n'
+    str += "}" + '\n'
     return str
 }
